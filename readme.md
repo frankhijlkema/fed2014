@@ -1,9 +1,6 @@
 fed2014
 =======
 
-# Algemeen
-* Commentaar toevoegen in de code
-
 # Javascript
 * Geen globale variabelen en objecten
 * Gebruik korte duidelijke (betekenisvolle) namen
@@ -11,12 +8,11 @@ fed2014
 * Constanten geschreven in kapitalen
 * De rest in camelCase
 * Externe scripts onder aan de pagina includen
-* Don't use global variables/objects
-* Use short clear (meaningful) names
-* Constructor function start with capital
-* Constants with all captials
-* camelCase the rest
-* Place external scripts at the bottom of the page
+* Voeg commentaar toe
+* Gebruik {} in plaats van New Object() en [] in plaats van New Array()
+* Gebruik === in plaats van ==
+* Geen eval
+* Genereer zo min mogelijk HTML in je javascript
 
 # HTML
 
