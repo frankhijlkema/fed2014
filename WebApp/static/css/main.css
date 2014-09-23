@@ -1,0 +1,48 @@
+* {
+	font: 1em Arial;
+}
+
+main {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+article {
+	display: block;
+	width: 100%;
+	min-height: 200px;
+}
+
+article h1 {
+
+}
+
+article em {
+	display: block;
+
+	font-size: 0.8em;
+}
+
+article figure {
+	margin: 0;
+}
+
+article img {
+	float: right;
+	height: 100px;
+	margin: -45px 15px 15px 15px
+}
+
+article p {
+
+	line-height: 120%;
+}
+
+section {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
