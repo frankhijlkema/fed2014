@@ -15,10 +15,10 @@ var app = app || {};
 		init: function () {
 			routie({
 				'movies': function() {
-					app.section.switch('movies');
+					app.section.toggle('movies');
 				},
 				'about': function() {
-					app.section.switch('about');
+					app.section.toggle('about');
 				}
 			});
 		}
@@ -37,7 +37,7 @@ var app = app || {};
 		about: function () {
 			Transparency.render(document.getElementById("about"), app.content.about);
 		},
-		switch: function (section) {
+		toggle: function (section) {
 			var sections = document.querySelectorAll('section');
 			for (i = 0; i < sections.length; i++) {
 				sections[i].classList.remove('active');
