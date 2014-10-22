@@ -23,14 +23,14 @@
 				<article>
 					<header>
 						<h1 data-bind="title"></h1>
-						<em>Release date: <time data-bind="releaseDate"></time></em>
+						<em>Release date: <time data-bind="release_date"></time></em>
 					</header>
 
 					<figure>
 						<img data-bind="cover">
 					</figure>
 
-					<p data-bind="description"></p>
+					<p data-bind="simple_plot"></p>
 				</article>
 			
 			</section>
@@ -45,6 +45,7 @@
 			</nav>
 		</header>
 
+        <script src="static/js/vendor/underscore.min.js"></script>
         <script src="static/js/vendor/routie.min.js"></script>
         <script src="static/js/vendor/transparency.min.js"></script>
         <script src="static/js/main.js"></script>
